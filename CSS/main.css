@@ -1,0 +1,869 @@
+
+
+
+@media screen and (max-width:1200px) {
+	.container{
+		
+	}
+	.container h1  {
+		
+		font-size: 25px;
+		font-weight: bold;
+	
+	}
+	.podnaslovi{
+		
+		font-size: 18px;
+		font-weight: bold;
+		color: #606060;
+	
+	}
+	.container p {
+		font-size: 16px;
+	
+	}
+
+	ul{
+		display: none;
+		
+	}
+	.categories ul{
+		display: block;
+	}
+	
+	
+}
+@media screen and (min-width:280px) and (max-width:959px){
+	#logo{
+		position: absolute;
+	    right:40%;
+	}
+	
+	#m-bar{
+		display: block;
+		position: absolute;
+		top: 100px;
+	}
+}
+
+
+
+
+	@media screen and (max-width:800px) {
+	#Section-H{
+		overflow: hidden;
+		position: relative;
+		
+	}
+	#front{
+		position: absolute;
+		top:100px;
+		left: 90px;
+	}
+	#rocket{
+		
+		position: absolute;
+		top:200px;
+		left:220px; 
+	}
+	#rocket2{
+		width: 130px;
+		
+	}
+	#rocket3{
+		
+	}
+		#rocket4{
+		position: absolute;
+		top:100px;
+		left:10px; 
+	}
+}
+@media screen and (min-width:801px) and (max-width:1000px) {
+	#Section-H{
+		overflow: hidden;
+		position: relative;
+		
+	}
+	#front{
+		position: absolute;
+		top:100px;
+		left: 90px;
+	}
+	#rocket{
+		
+		position: absolute;
+		top:100px;
+		left:420px; 
+	}
+	#rocket2{
+		width: 150px;
+		
+	}
+	#rocket3{
+		
+	}
+	#rocket4{
+		position: absolute;
+		top:100px;
+		left:20px; 
+	}
+}
+
+
+	
+@media screen and (min-width:1001px) and (max-width:1200px) {
+	#Section-H{
+		overflow: hidden;
+		position: relative;
+		
+	}
+	#front{
+		position: absolute;
+		top:100px;
+		left: 90px;
+	}
+	#rocket{
+		
+		position: absolute;
+		top:100px;
+		left:420px; 
+	}
+	#rocket2{
+		width: 150px;
+		
+	}
+	#rocket3{
+		
+	}
+	#rocket4{
+		
+	}
+	#t-link{
+		font-size:8px;
+	
+
+	}
+	#t-link1{
+		font-size:8px;
+	
+
+	}
+}
+	
+
+
+@media screen and (max-width:1080px) {
+	#Section-6{
+		overflow:hidden;
+	}
+	.customer{
+		
+		
+	}
+	#owl{
+		
+	}
+	.single-price p{
+		font-size: 10px;
+	}
+	.single-price h1{
+		font-size: 20px;
+	}
+	
+	.deals p{
+	
+	font-size: 12px;
+
+}
+	.price-link a{
+    
+	padding:2px 3px;
+	font-size: 7px;
+	background:#3EA5EF;
+	color: white;
+	border-radius: 20px;
+}
+	
+	
+}
+	
+
+@media screen and (min-width:480px) and (max-width:968px){
+	#Section-3{
+    position:relative;
+		height: 850px;
+	}
+	#Section-5{
+    position:relative;
+		height: 870px;
+	}
+	#Section-8{
+		 position:relative;
+		height: 880px;
+	}
+	
+	#tekst{
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	#slika{
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+	#tekst1{
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	#slika1{
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+	#tekst2{
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	#slika2{
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+	form{
+		position: relative;
+		width: 20%;
+	}
+	#email{
+		height: 40px;
+	}
+	.button{
+		font-weight: normal;
+		font-size: 10px;
+		padding: 10px 10px;
+		position: absolute;
+	   left:400%;
+		top:0;
+	}
+	
+}
+
+
+
+
+
+
+
+html{
+	scroll-behavior:smooth;
+	
+	
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family:OpenSans Regular sans-serif;
+	
+	
+}
+
+#m-btn{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	display: none;
+	z-index: 99;
+	
+	
+}
+@media screen and (max-width:1201px){
+	#m-btn{
+		
+		display:block;
+		position: fixed;
+		cursor: pointer;
+		z-index: 99;
+	}
+	
+		
+}
+
+
+
+#Section-H{
+	height: 650px;
+	
+	padding-left: 10%;
+	position: relative;
+	background-color: #EEF4F9 ;
+	background-image: url(../images/rocket1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	
+}
+.typing1{ 
+            animation: fadeInAnimation ease 12s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+
+
+#logo{ 
+            animation: fadeInAnimation ease 12s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+#navbar{ 
+            animation: fadeInAnimation ease 2s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+#rocket{
+  width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   { bottom: 30px; top: 0px;}
+  25%  {left: 200px; top: 0px;}
+  50%  {left: 200px; top: 200px;}
+  75%  { left: 0px; top: 200px;}
+  100% { left: 0px; top: 0px;}
+}
+#rocket3{
+ 
+  
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle 6s linear infinite;
+}
+
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-165px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-165px)
+              rotate(-360deg);
+  }
+}
+
+#rocket4{
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes myfirst {
+  0%   {left: 0px; top: 0px;}
+  25%  { left: 200px; top: 0px;}
+  50%  {left: 200px; top: 200px;}
+  75%  {left: 0px; top: 200px;}
+  100% { left: 0px; top: 0px;}
+}
+
+.naslov{
+	color:#606060;
+	
+}
+.podnaslovi{
+	font-size: 29px;
+	padding: 20px 0 ;
+font-weight: bold;
+		color: #606060;
+}
+
+
+
+
+
+#logo{
+	float: left;
+	margin-left: 50px;
+	padding-top: 14px;
+	
+}
+.mobile-bar{
+	display: none;
+}
+
+@media screen and (max-width:1201px){
+	#Section-H{
+		position: relative;
+		
+	}
+	#logo{
+		float: left;
+	}
+	.mobile-bar{
+		
+		text-decoration: none;
+		display:block;
+		position: absolute;
+		top:50px;
+		left: 0;
+		
+		height: 100%;
+		background:#00000;
+		z-index: 99;
+		
+		
+	}
+	.mobile-bar ul{
+		background: rgba(156,204,243,0.7);
+		z-index: 99;
+		position: fixed;
+		list-style-type: none;
+		font-family: 'Open Sans', sans-serif;
+		text-decoration: none;
+		transform:translateX(-600px);
+		transition:transform 0.9s ease-in-out;
+		opacity:0.7;
+	}
+	.mobile-bar li{
+		font-size: 14px;
+		list-style:none;
+		margin-bottom: 30px;
+		
+	}
+	#m-bar a{
+		
+		text-decoration: none;
+		background:rgba(50,49,49,1.00);
+		color: white;
+		font-weight: bold;
+		border-bottom: 1px solid silver;
+	}
+	#m-bar li a:hover{
+	background-color:#f5c463 ;
+     text-decoration: none;
+	
+}
+	
+.mobile-bar li a:visited{
+	
+	text-decoration:none;
+	}
+		
+	
+	a:link{
+		
+		text-decoration:none;
+		}
+	.mobile-bar ul.show{
+		transform:translateX(-20px);
+	}
+	
+		
+}
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #EEF4F9;
+}
+#navbar ul {
+	font-family: 'Open Sans', sans-serif;
+	
+	margin-left:30%;
+	list-style-type: none;
+	padding: 0px;
+	over-flow: visible;
+	display: hidden;
+	
+}
+#navbar li{
+	
+	float:left;
+	padding:0 0px;
+	list-style:none;
+}
+#navbar a {
+	font-size: 14px;
+	margin-right:40px;
+	margin-top: 10px;
+  float: left;
+  display: block;
+  color: #727171;
+  text-align: center;
+ 
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 0px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#navbar li a:hover{
+	background-color:#f5c463 ;
+     text-decoration: none;
+	
+}
+	
+#navbar li a:visited{
+	
+	text-decoration:none;
+	}
+		
+	
+	a:link{
+		
+		text-decoration:none;
+		}
+
+#btn1{
+	
+	margin-top: 3%;
+	
+	
+}
+
+#flex{
+	
+	flex-wrap: wrap;
+	margin-top: 30px;
+	
+}
+#rocket{
+	position: relative;
+	float: right;
+}
+#rocket2{
+margin-top: 45px;
+	left: 430px;
+}
+
+#rocket4{
+	position: absolute;
+	right: 350px;
+	top:250px;
+}
+#Section-2{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+#Section-2 p{
+color:#606060;
+}
+#Section-3{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+#Section-4{
+	
+	margin-top:50px;
+	margin-bottom: 5%;
+}
+.maska1{
+
+	background-position: 60% 28%;
+	background-repeat: no-repeat;
+	background-size: 170px 70px;
+	width: 60px;
+	height: 50px;
+	background-color:rgba(245,148,150,0.8);
+	border-radius: 55% 30% 50% 30%;
+	margin:0 auto;
+	padding-top: 10px;
+	
+}
+.maska2{
+		background-position: 60% 28%;
+	background-repeat: no-repeat;
+	background-size: 170px 70px;
+	width: 60px;
+	height: 50px;
+	background-color:rgba(160,210,244,0.7);
+	border-radius: 55% 30% 50% 30%;
+	margin:0 auto;
+	padding-top: 10px;
+}.maska3{
+		background-position: 60% 28%;
+	background-repeat: no-repeat;
+	background-size: 170px 70px;
+	width: 60px;
+	height: 50px;
+	background-color:rgba(193,240,140,0.70);
+	border-radius: 55% 30% 50% 30%;
+	margin:0 auto;
+	padding-top: 10px;
+}
+.maska4{
+		background-position: 60% 28%;
+	background-repeat: no-repeat;
+	background-size: 170px 70px;
+	width: 60px;
+	height: 50px;
+	background-color:rgba(204,150,240,0.70);
+	border-radius: 55% 30% 50% 30%;
+	margin:0 auto;
+	padding-top: 10px;
+}
+.maska5{
+		background-position: 60% 28%;
+	background-repeat: no-repeat;
+	background-size: 170px 70px;
+	width: 60px;
+	height: 50px;
+	background-color:rgba(239,164,70,0.70);
+	border-radius: 55% 30% 50% 30%;
+	margin:0 auto;
+	padding-top: 10px;
+}
+
+.row {
+	text-align: justify;
+	padding-top: 20px;
+	
+}
+
+
+
+#Section-6{
+	
+    margin-top:50px;
+	background:rgba(231,231,231,0.7);
+	
+}
+
+.sec-6{
+	padding-top: 50px;
+}
+.customer{
+	position: relative;
+	width: 250px;
+	height: 220px;
+	background: white;
+	border:1px solid rgba(209,207,207,0.5);
+	float: left;
+	margin:30px 20px;
+	padding: 20px;
+	
+}
+.text-customer{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 12px;
+	color:#606060;
+	
+}
+
+.slika-customer{
+	left: 10px;
+	bottom: 10px;
+	border-radius: 50% 30%;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+	
+}
+#owl{
+	width: 850px;
+	margin:0 auto;
+	
+	
+}#owl img{
+	border-radius: 50% 30%;
+}
+#Section-7{
+	    
+	margin-top: 50px;
+	margin-left: 13%;
+	
+	
+}
+.box-price{
+	
+	padding:50px;
+	width: 50%;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+	background: white;
+	float: left;
+	
+	text-align: center;
+	transition:0.9s;
+}
+
+.deals{
+	
+	padding-top: 30px;
+
+}
+.price-link{
+	padding-top: 30px;
+}
+.price-link a{
+	
+	padding:15px 20px;
+	font-weight: bold;
+	background:#3EA5EF;
+	color: white;
+	border-radius: 25px;
+}
+.price-link a:hover{
+	color: white;
+	box-shadow: 0 0 15px rgba(0,0,0,1);
+     text-decoration: none;
+	
+}
+	
+.price-link li a:visited{
+	
+	text-decoration:none;
+	}
+		
+	
+	a:link{
+		
+		text-decoration:none;
+		}
+.box-price:hover{
+	background:#f5c463;
+	color: #fff;
+	box-shadow: 0 0 15px rgba(0,0,0,1);
+	transform: scale(1.1);
+	z-index: 1;
+	border-radius: 25px;
+}
+#Section-8{
+	margin-top:50px;
+}
+
+
+#Section-9{
+	padding-top: 50px;
+	margin-top: 50px;
+	height: 400px;
+	position: relative;
+	background-color:  #EEF4F9 ;
+	background-image: url(../images/rocket1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+}
+#email{
+	padding: 10px 20px;
+	margin-right: 20px;
+	margin-left:30%;
+	width: 300px;
+	border-radius: 25px;
+	
+}
+
+
+.button{
+	cursor: pointer;
+	border-radius: 25px;
+	padding:15px 20px;
+	font-weight: bold;
+	background:#c5dce7;
+	color: white;
+	
+	
+}
+#Section-F{
+	
+}
+.popular-post{
+	padding-left:15px;
+	
+}
+.post{
+	margin-bottom:40px;
+}
+.img-footer{
+	border-radius: 8px;
+	border:solid 1px white;
+	margin-right: 10px;
+	float: left;
+	
+}
+.naslov-f{
+	font-weight: bold;
+	font-size: 13px;
+	margin-left: 15px;
+}
+.tags-link{
+	
+	margin:15px;
+	margin-left: 0;
+	font-weight: normal;
+	font-size: 9px;
+	padding: 9px 10px;
+}
+.categories{
+	margin-left:0;
+	margin-top:20px;
+	float:left;
+	color: #606060 ;
+}
+.naslovi-h6{
+	
+	margin-bottom: 10px;
+	margin-left:20px;
+}
+.ikonice-f{
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
